@@ -15,25 +15,25 @@ Raw counts matrices and velocyto loom files are available on GEO with accession 
 A short guide to the figures displayed in the manuscript:
 
 Figures:
-* 1h - fate probability pie charts on UMAP (6_cellrank)
-* 1i - lineage drivers (6_cellrank)
-* 1j - stacked violin plot tissue markers (7_final_visualisation)
+* 2b - scVelo metastable states (6_cellrank)
+* 2c - fate probability pie charts on UMAP (6_cellrank)
+* 2d - lineage drivers (6_cellrank)
+* 2e - stacked violin plot tissue markers (7_final_visualisation)
+* 2f - UMAP gene expression (Cdh1, Cdh2, Snail1, T, Foxa2) (7_final_visualisation)
 
-* 3a - heatmap Wnt signalling mesoderm - pEpi - TP - ADE (7_final_visualisation)
-* 3b - lineplot (4_pseudotime)
+* 5d - heatmap Wnt signalling mesoderm - pEpi - TP - ADE (7_final_visualisation)
+* 5e - lineplot Wnt signalling (4_pseudotime)
 
-* 4a - heatmap delamination (7_final_visualisation)
-* 4b - lineplot (4_pseudotime)
+* 7f - heatmap delamination (7_final_visualisation)
+* 7g - lineplot delamination (4_pseudotime)
 
 Extended Data Figures:
 * 2b - UMAP tissues (2_clustering_annotation)
 * 2c - dotplot marker genes (7_final_visualisation)
-* 2d - stream plot Foxa2 mRNA + FVF sorting (6_ellrank)
-* 2e - scVelo metastable states (6_cellrank)
-* 2f - barplots fate probability (6_cellrank)
-* 2g - UMAP gene expression (Cdh1, Cdh2, Snail1, T, Foxa2) (7_final_visualisation)
+* 2d - stream plot Foxa2 mRNA + FVF sorting (6_cellrank)
+* 2e - barplots fate probability (6_cellrank)
 
-* 8g - UMAP with Foxa2+/- pEpi (3_differential_expression_pEpi)
-* 8h - stacked violin for pEpi and Epi (7_final_visualisation)
-* 8i - stacked violin for Foxa2+/- pEpi (7_final_visualisation)
+* 7a - UMAP with Foxa2+/- pEpi (3_differential_expression_pEpi)
+* 7b - stacked violin for pEpi and Epi (7_final_visualisation)
+* 7c - stacked violin for Foxa2+/- pEpi (7_final_visualisation)
 
