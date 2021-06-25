@@ -1,16 +1,16 @@
 # Gastrulation analysis
 
-This repository contains all analysis files for the reproducibility of the single-cell RNAsequencing data analysis results presented in Scheibner et al., "Epithelial cell plasticity drives endoderm formation during gastrulation" (2021) - please consider citing this paper, if you find this collection of notebooks useful.
+This repository contains all analysis files for the reproducibility of the single-cell RNAsequencing data analysis results presented in Scheibner et al., ["Epithelial cell plasticity drives endoderm formation during gastrulation"](https://www.nature.com/articles/s41556-021-00694-x) (Nature Cell Biology, 2021) - please consider citing this paper, if you find this collection of notebooks useful.
 
-Raw counts matrices and velocyto loom files are available on GEO with accession code GSE162534. We organized the analysis in jupyter notebooks:
+Raw counts matrices and velocyto loom files are available on GEO with accession code [GSE162534](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162534). We organized the analysis in jupyter notebooks:
 
-* 1_preprocessing.ipynb presents the quality control with cell and gene filtering, normalization and batch effect correction.
-* 2_clustering_annotation.ipynb shows the annotation of the data based on louvain clustering and marker genes. 
-* 3_differential_expression_pEpi.ipynb determines differentially expressed genes in the posterior epiblast with respect to epiblast and endoderm lineage, resp.
-* 4_pseudotime.ipynb shows the gene dynamics of selected genes towards the mesoderm and endoderm lineage.
-* 5_RNAvelocity.ipynb computes the dynamic RNA velocity model (with separate data pre-processing).
-* 6_cellrank.ipynb computes cell fate probabilities based on the RNA velocity information
-* 7_final_visualisation.ipynb contains a summary of final plots for publication.
+* [1_preprocessing.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/1_preprocessing.ipynb) presents the quality control with cell and gene filtering, normalization and batch effect correction.
+* [2_clustering_annotation.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/2_clustering_annotation.ipynb) shows the annotation of the data based on louvain clustering and marker genes. 
+* [3_differential_expression_pEpi.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/3_differential_expression_pEpi.ipynb) determines differentially expressed genes in the posterior epiblast with respect to epiblast and endoderm lineage, resp.
+* [4_pseudotime.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/4_pseudotime.ipynb) shows the gene dynamics of selected genes towards the mesoderm and endoderm lineage.
+* [5_RNAvelocity.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/5_RNAvelocity.ipynb) computes the dynamic RNA velocity model (with separate data pre-processing).
+* [6_cellrank.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/6_cellrank.ipynb) computes cell fate probabilities based on the RNA velocity information
+* [7_final_visualisation.ipynb](https://github.com/theislab/gastrulation_analysis/blob/main/7_final_visualisation.ipynb) contains a summary of final plots for publication.
 
 A short guide to the figures displayed in the manuscript:
 
